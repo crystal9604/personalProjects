@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>SJ 영화 예매</title>
+    <script defer src="./app.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>SJ 영화 예매</h1>
+        </div>
+        <button id="loadMoviesBtn" class="btn">영화 목록 불러오기</button>
+    </header>
+
+    <!-- 로그인된 유저 정보 표시 -->
+    <div id="userInfoContainer" class="user-info"z>
+        <h2>로그인 정보</h2>
+        <p id="userName">이름: </p>
+        <p id="userAge">나이: </p>
+        <p id="userAddress">주소: </p>
+        <p id="userEmail">이메일: </p>
+    </div>
+
+    <div id="movieListContainer">
+        <h2>현재 상영중인 영화</h2>
+        <ul id="movieListItems" class="movie-list"></ul>
+    </div>
+
+    <div id="cartContainer" class="cart-container">
+        <h4>영화 예매 목록</h4>
+        <table id="cartTable">
+            <thead>
+                <tr>
+                    <th>영화 제목</th>
+                    <th>수량</th>
+                    <th>가격</th>
+                    <th>총가격</th>
+                    <th>삭제</th>
+                </tr>
+            </thead>
+            <tbody id="cartItems"></tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5">전체가격: <b id="totalPrice">0원</b></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <!-- 장바구니 열기 버튼 -->
+    <button id="openCartBtn">장바구니 열기</button>
+    <!-- 장바구니 닫기 버튼 -->
+    <button id="closeCartBtn">장바구니 닫기</button>
+</body>
+</html>

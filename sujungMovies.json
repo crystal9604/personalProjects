@@ -1,0 +1,56 @@
+{
+    "user_id": "sujung",
+    "movies" : 
+    [
+        {
+            "num": 1,
+            "title": "소방관(일반)",
+            "cnt": 2,
+            "price": 13000,
+            "total": 26000,
+            "img[src]" : "./img/소방관.jpg"
+        },
+        {
+            "num": 2,
+            "title": "위키드(IMAX)",
+            "cnt": 4,
+            "price": 18000,
+            "total": 72000,
+            "img[src]" : "./img/위키드.jpg"
+        },
+        {
+            "num": 3,
+            "title": "모아나2(4DX)",
+            "cnt": 3,
+            "price": 19000,
+            "total": 57000,
+            "img[src]" : "./img/모아나2.jpg"
+        },
+        {
+            "num": 4,
+            "title": "1승(SCREENX)",
+            "cnt": 3,
+            "price": 16000,
+            "total": 48000,
+            "img[src]" : "./img/1승.jpg"
+        },
+        {
+            "num": 5,
+            "title": "원정빌라(씨네드쉐프)",
+            "cnt": 5,
+            "price": 50000,
+            "total": 250000,
+            "img[src]" : "./img/원정빌라.jpg"
+        },
+        {
+            "num": 6,
+            "title": "대가족(골드클래스)",
+            "cnt": 4,
+            "price": 40000,
+            "total": 160000,
+            "img[src]" : "./img/대가족.jpg"
+        }
+
+
+    ]
+}
